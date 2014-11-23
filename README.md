@@ -18,5 +18,5 @@ This script assumes that you have already downloaded and unzipped the original S
 In your R enviroment load and source the script:
 
 The end result will be 2 files :
-- "xTabelMean.csv" with all values in columns containing "mean".
-- "tweedeSet.csv" with all means
+- "xTabelMean.txt" with all values in columns containing "mean".
+- "tweedeSet.txt" with all means
