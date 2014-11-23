@@ -2,29 +2,32 @@
 
 ## variabelen en tabellen
 
-### subject
-Het onderwerp van de kolom
+### filePath
+This is the path you can define to your working directory. Make sure that the UCI HAR Dataset is at this location.
 
-### activity
-De gelogde activiteit
+### xTrain, yTrain, xTest, yTest
+The files to read...
 
-### training
-De training-tabel/-file
+### variabelen
+The variable names read from the features-file
 
-### testing
-De testingtabel/-file
+### activiteiten
+The activity labels read from the activity-labels-file
 
-### features
-De mogelijkheden
+### meanVariablen
+Finds variables that "are" mean
 
-### alleData
-Merge van training en testdata
+### xTabel, yTabel, xTabelMean, yTabelLabels
+Contain the merged tables for x and y, and the reduced "Mean"-table and the labels for the yTabel
 
-### kolomNamen
-De kolomnamen...
+### trainingOnderwerp, testOnderwerp
+The subjects in the training and testfile
 
-### kolommen
-De laatste 2 kolommen
+### onderwerpenTest, onderwerpenTrain, maakOnderwerp
+These hold the names of the subjects as defined with the function "maakOnderwerp"
 
-### cleanData
-De opgeschoonde data.
+### onderwerpen
+Contains the merged subjects for test and train
+
+### tweedeSet
+The second dataset
