@@ -15,10 +15,8 @@ This R script performs the following steps, as per the project assignment instru
 
 This script assumes that you have already downloaded and unzipped the original Samsung data in a folder called "UCI HAR Dataset", that resides on the path "U:/datasciencecoursera/GettingCleaning"
 
-In your R enviroment (in the same folder where the data files are), load the script:
+In your R enviroment load and source the script:
 
-```
-source('run_analysis.R')
-```
-
-The end result will be a file called "CleanData.txt" in the same folder.
+The end result will be 2 files :
+- "xTabelMean.csv" with all values in columns containing "mean".
+- "tweedeSet.csv" with all means
